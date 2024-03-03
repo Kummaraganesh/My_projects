@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .google-logo {
+            width: 100px;
+            height: auto;
+        }
+        .navigation {
+            display: flex;
+            align-items: center;
+        }
+        .navigation a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .navigation a:hover {
+            color: #4285f4;
+        }
+        .account-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 20px;
+        }
+        .account-icon img {
+            width: 100%;
+            height: auto;
+        }
+        #google{
+            font-size: 120px;
+            text-align: center;
+            font-weight: bold;
+            color: #1a73e8;
+            font-family: product san, sans-serif;
+        }
+        .b{
+            color: #4285F4;
+        }
+        .r{
+            color: #EA4335;
+        }
+        .y{
+            color: #FBBC05;
+        }
+        .g{
+            color: #34A853;
+        }
+        .search-box {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 90px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            outline: none;
+        }
+        .icon {
+            padding: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .icon:hover {
+            background-color: #f0f0f0;
+        }
+        .icon img {
+            width: 24px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+            <div class="navigation">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <div class="account-icon">
+                    <img src="https://cdn4.iconfinder.com/data/icons/alphabet-3/500/ABC_alphabet_letter_font_graphic_language_text_K-1024.png" alt="Account">
+                </div>
+            </div>
+        </div>
+        <h1 id="google"><span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="green">l</span><span class="r">e</span></h1>
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search Google or type a URL">
+            <div class="icon">
+                <img src="https://img.icons8.com/material-rounded/24/000000/microphone.png"/>
+            </div>
+            <div class="icon">
+                <img src="https://img.icons8.com/material-rounded/24/000000/search.png"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b30047;
+            margin: 30px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        label{
+            margin-left: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(2, 2, 2, 0.5);
+            
+            max-width: 600px;
+        }
+        #input{
+            width:300px;
+            margin: 10px;
+            margin-left: 100px;
+            border: 1px solid black;
+            padding: 5px;
+            
+
+        }
+        select{
+            width: 310px;
+            margin-left: 93px;
+            margin-top: 10px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        #password{
+            margin-left: 75px;
+            border: 1px solid black;
+            padding: 5px;
+            width: 300px;
+        }
+        #phone{
+            margin-top: 10px;
+            margin-left: 40px;
+            border: 1px solid black;
+            padding: 5px;
+            width: 300px;
+
+        }
+        #language{
+            margin-top: 10px;
+            margin-left: 72px;
+            border: 1px solid black;
+            padding: 5px;
+            width: 300px;
+        }
+        #zip{
+            margin-top: 10px;
+            margin-left: 77px;
+            border: 1px solid black;
+            padding: 5px;
+            width: 300px;
+        }
+        #about{
+            width: 310px;
+            margin-left: 98px;
+            margin-top: 10px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Login Form</h2>
+        <label>Name:</label>
+        <input type="text" id="input" name="name"><br>
+
+        <label>Email:-</label>
+        <input type="email" id="input" name="email" required><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label>Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label>Gender:</label>
+        <select id="gender" id="input" name="gender"><br>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label>Language:</label>
+        <input type="text" id="language" name="language"><br>
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zip" name="zipcode"><br>
+
+        <label>About:</label>
+        <textarea id="about"></textarea><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

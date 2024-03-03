@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+        div{
+            width: fit-content;
+            height: fit-content;
+            background: whitesmoke;
+            margin: 20px 400px;
+            padding: 35px;
+            border-radius: 20px;
+        }
+        form{
+            font-size: 20px;
+        }
+        form h2{
+            text-align: center;
+        }
+        input[type=email],
+        input[type=password]{
+            width: 400px;
+            height: 20px;
+            padding: 3px;
+
+        }
+        input[type=checkbox]{
+            font-size: 10px;
+        }
+        h3{
+            display: inline;
+        }
+        .submit{
+            display: block;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            margin-left: 80px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px 100px;
+            background-color: lightblue;
+        }
+        .submit:hover{
+            background-color: rgb(52, 183, 52);
+            box-shadow: 2px 2px 2px 2px black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left: 60px;
+        }
+        a:hover{
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+        <center><h1>Login Customer Personal Account</h1></center>
+        <div>
+        <form action="Login" method="post">
+            <h2>Login</h2>
+            <b>
+            E-mail : <br>
+            <input type="email" placeholder="Enter your E-mail Id" autocomplete="on" name="email" required><br><br>
+            Password : <br>
+            <input type="password" placeholder="Enter your password" autocomplete="on" name="password" required><br><br>
+            <input type="checkbox" required ><h3 style="font-size: 20px;"> please check above details are correct or not!</h3> 
+            <input type="submit" class="submit" value="Signin"><br><br>
+            <a href="register.jsp">New user click here to register! </a>
+            </b>
+        </form>
+        </div>
+</body>
+</html>
+
+
+
+<p style="margin-left: 50px;">Media<span style="margin-left:150px;">Event</span><span style="margin-left: 150px;">Write article</span></p>
